@@ -384,8 +384,8 @@ height with 100vh, also adding justify content center */
     :root{
         --tamanho-entrada: 3rem;
         --tamanho-primario: 1.8rem;
-        --tamanho-secundario: 1.2rem;
-        --tamanho-terciario: 0.6rem;
+        --tamanho-secundario: 1.125rem;
+        --tamanho-terciario: 0.75rem;
     }
 
     .div{
@@ -417,6 +417,7 @@ height with 100vh, also adding justify content center */
 
 
     .div2{
+        padding: 20% 0% ;
         height: auto;
         gap: 4.5rem;
     }
