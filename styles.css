@@ -78,6 +78,7 @@ body {
     font-family: var(--fonte-primaria);
     font-weight: var(--weight-primario);
     font-size: var(--tamanho-entrada);
+    margin-bottom: 1.5%;
 }
 
 .div__buttons{
@@ -90,7 +91,7 @@ body {
 }
 
 .div__buttons__button{
-    padding: 3% 0%;
+    padding: 3% 6%;
     
     font-family: var(--fonte-primaria);
     font-weight: var(--weight-terciario);
@@ -328,6 +329,10 @@ height with 100vh, also adding justify content center */
 
 .div__buttons__button:nth-child(2){
     transition-delay: 150ms;
+}
+
+.div__buttons__button:nth-child(3){
+    transition-delay: 300ms;
 }
 
 
