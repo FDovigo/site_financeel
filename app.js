@@ -12,6 +12,8 @@ const observer = new IntersectionObserver((entries) => {
 
 const hiddenElements = document.querySelectorAll('.hidden');
 const hiddenElements_rev = document.querySelectorAll('.hidden__rev');
+const hiddenElements_fadein = document.querySelectorAll('.hidden__fadein');
 
 hiddenElements.forEach((el) => observer.observe(el));
 hiddenElements_rev.forEach((el) => observer.observe(el));
+hiddenElements_fadein.forEach((el) => observer.observe(el));

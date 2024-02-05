@@ -326,6 +326,12 @@ height with 100vh, also adding justify content center */
     transition: all 1s;
 }
 
+.hidden__fadein{
+    opacity: 0;
+    filter: blur(10px);
+    transition: all 2s;
+}
+
 .show{
     opacity: 1;
     filter: blur(0);
