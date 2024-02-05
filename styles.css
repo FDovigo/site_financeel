@@ -36,6 +36,7 @@ Exemplo:
     --tamanho-primario: 3rem;
     --tamanho-secundario: 1.5rem;
     --tamanho-terciario: 1rem;
+    --tamanho-quaternario: 0.8;
 }
 
 body {
@@ -450,6 +451,12 @@ height with 100vh, also adding justify content center */
     .div2__cards__card{
         width: 60vw;
         height: 30vh;
+    }
+
+    .div2__about cite{
+        font-family: var(--fonte-primaria);
+        font-weight: var(--weight-terciario);
+        font-size: var(--tamanho-terciario);
     }
 
     .div3{
