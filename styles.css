@@ -69,7 +69,7 @@ body {
 }
 
 .div__img{
-    padding: 3% 0%;
+    padding: 2.25% 0%;
     width: 20%;
 }
 
@@ -118,6 +118,7 @@ body {
 .section2 {
     width: auto;
     height: auto;
+    padding: 12% 0%;
 
     background: var(--background);
 }
@@ -126,7 +127,7 @@ body {
 This is made by ajusting the width with auto and
 height with 100vh, also adding justify content center */
 .div2{
-    padding: 12% 0%;
+    
 
     display: flex;
     flex-direction: column;
@@ -206,6 +207,18 @@ height with 100vh, also adding justify content center */
     font-family: var(--fonte-primaria);
     font-weight: var(--weight-secundario);
     font-size: var(--tamanho-terciario);
+}
+
+.div2__about{
+    display: flex;
+    justify-content: center;
+    padding: 0% 12% ;
+}
+
+.div2__about h3{
+    font-family: var(--fonte-primaria);
+    font-weight: var(--weight-terciario);
+    font-size: var(--tamanho-secundario);
 }
 
 
